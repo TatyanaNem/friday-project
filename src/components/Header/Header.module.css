@@ -1,0 +1,35 @@
+.header {
+    box-shadow: 0 0 40px rgba(29, 33, 38, 0.13), 0 0 2px rgba(29, 33, 38, 0.1);
+}
+
+.container {
+    max-width: 1200px;
+    min-height: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.header__navigation a {
+    padding: 20px;
+    text-decoration: none;
+    color: #333333;
+    cursor: pointer;
+}
+
+.header__navigation a:hover {
+    color: blue;
+}
+
+.active {
+    background-color: yellow;
+    text-decoration: #61dafb;
+}

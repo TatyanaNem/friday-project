@@ -1,0 +1,29 @@
+.registrationForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    min-height: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid #333333;
+    border-radius: 10px;
+}
+
+.registrationForm__fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 0;
+    border-radius: 4px;
+}
+
+.registrationForm__label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.registrationForm__label input {
+    width: 280px;
+}

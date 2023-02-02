@@ -1,0 +1,21 @@
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    min-height: 150px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid #333333;
+    border-radius: 10px;
+}
+
+.loginForm__label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.loginForm__label:not(:last-child) {
+    margin-bottom: 10px;
+}
